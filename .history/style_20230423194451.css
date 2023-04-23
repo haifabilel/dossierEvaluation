@@ -6,7 +6,7 @@
 }
 /*Mobile first*/
 @media (max-width:576px){
- /*Navbar Section Started*/   
+ /*Navbar Section Stared*/   
 .container-fluid img{
     margin:10px;
     width: 170px;
@@ -15,15 +15,12 @@
 .navbar-nav a{
     font-size: 1.2rem;
     margin:10px;
-    font-family: Alkatra ;
+  
 }
 .navbar-nav a:hover{
    
     border-bottom-color:transparent;
 }
-/*Navbar Section ended*/
-
-/*Home Section started*/
 #carouselExampleCaptions{
     margin-top:-5px;
 }  
@@ -32,10 +29,6 @@
     height:60vh;
     margin-top:80px;
 }
-
-
-
-/*Home Section started*/
 }
 @media (min-width:576px){
  /*Navbar Section started*/
@@ -89,18 +82,23 @@ span{
 /*Home Section started*/
 .Home{
     
-    margin-top:85px;
+    margin-top:100px;
 }
 .carousel-item img{
     width: 100%;
     height:80vh;
-    margin-top:5px;
+    margin-top:70px;
+  
+  
+ 
+
 }
 .carousel-inner p{
     font-size:1.5rem;
     font-weight: bold;
     text-shadow: 1px 1px 2px black, 0 0 1em whitesmoke, 0 0 0.2em whitesmoke;
-  
+    
+    
 }
 
 
