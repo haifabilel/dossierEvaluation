@@ -7,7 +7,7 @@
 /*Mobile first*/
 @media (max-width:576px){
     
-.container-fluid img{
+    .container-fluid img{
     margin:10px;
     width: 150px;
     height: 50px;
@@ -40,7 +40,6 @@
     z-index:1;
     width:100%;
     height:100px;
-    background-color: white;
        
 }
 .collapse button{
