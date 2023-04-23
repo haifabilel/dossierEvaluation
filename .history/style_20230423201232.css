@@ -26,29 +26,19 @@
 /*Home Section started*/
 .Home{
     
-    margin-top:-10px;
+    margin-top:10px;
 }
 
 .carousel-item img{
     width: 100%;
     height:60vh;
-    margin-top:0;
-}
-
-/*Home Section ended*/
-/* Section Nos activités started*/
-h1{
-    
-    text-align:center;
-    font-family:Alkatra;
+    margin-top:5px;
 }
 
 
 
-/* Section Nos activités started*/
+/*Home Section started*/
 }
-
-
 @media (min-width:576px){
  /*Navbar Section started*/
 .container-fluid{

@@ -26,7 +26,7 @@
 /*Home Section started*/
 .Home{
     
-    margin-top:-10px;
+    margin-top:-5pxpx;
 }
 
 .carousel-item img{
@@ -35,20 +35,10 @@
     margin-top:0;
 }
 
-/*Home Section ended*/
-/* Section Nos activités started*/
-h1{
-    
-    text-align:center;
-    font-family:Alkatra;
+
+
+/*Home Section started*/
 }
-
-
-
-/* Section Nos activités started*/
-}
-
-
 @media (min-width:576px){
  /*Navbar Section started*/
 .container-fluid{
