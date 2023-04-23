@@ -152,105 +152,9 @@ h3{
     transform:scale(1.1);
 } 
 /* Section NosEvenements Ended*/
-/* Section Contact Us started*/
-footer {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-    position:;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .footer-top {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-  }
-  
-  .donation-form,
-  .volunteer-form {
-    width: 45%;
-    margin-bottom: 20px;
-  }
-  
-  h3 {
-    margin-top: 0;
-  }
-  
-  form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  form input,
-  form textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  form button {
-    background-color: #0066cc;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  form button:hover {
-    background-color: #0051a8;
-  }
-  /* Footer bottom*/
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 30px 0;
-    font-size: 14px;
-  }
-  
-  footer h3 {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  footer p {
-    margin-bottom: 20px;
-  }
-  
-  footer ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  footer li {
-    margin-bottom: 10px;
-  }
-  
-  footer a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .social-media li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .social-media li:last-child {
-    margin-right: 0;
-  }
-  
-  
-  
 }
-/* Section Contact Us ended*/
+
+
 
 
 
@@ -356,7 +260,7 @@ h2{
 /*Section Nos activités ended*/
 /* Section Nos Evenements started*/
 .Event{
-    background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(213, 209, 209, 0.358)) 
+    background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(0, 0, 0, 0.358)) 
     center no-repeat;
     height:700px;
     background-size: cover;

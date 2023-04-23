@@ -255,6 +255,11 @@ footer {
 
 
 
+
+
+
+
+
 @media (min-width:576px){
  /*Navbar Section started*/
 .container-fluid{
@@ -356,7 +361,7 @@ h2{
 /*Section Nos activités ended*/
 /* Section Nos Evenements started*/
 .Event{
-    background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(213, 209, 209, 0.358)) 
+    background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(0, 0, 0, 0.358)) 
     center no-repeat;
     height:700px;
     background-size: cover;
