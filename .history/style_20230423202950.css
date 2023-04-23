@@ -65,9 +65,9 @@ h2{
   
 /* Section Nos Evenements started*/
 .Event{
-    background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(213, 209, 209, 0.358)) 
+    background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(0, 0, 0, 0.358)) 
     center no-repeat;
-    height:1500px;
+    height:1200px;
     background-size: cover;
 }
 .text-Event{
@@ -83,10 +83,10 @@ h3{
     display:inline-block;
     position: relative;
     margin: 30px;
-    top:15%;
-    left: 40%;
+    top:20%;
+    left: 20%;
     transform: translate(-50%,-50%);
-    width: 370px;
+    width: 400px;
     height: 400px;
     
 }

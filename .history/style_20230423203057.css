@@ -83,10 +83,10 @@ h3{
     display:inline-block;
     position: relative;
     margin: 30px;
-    top:15%;
-    left: 40%;
+    top:10%;
+    left: 20%;
     transform: translate(-50%,-50%);
-    width: 370px;
+    width: 400px;
     height: 400px;
     
 }
