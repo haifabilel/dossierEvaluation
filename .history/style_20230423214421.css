@@ -9,8 +9,8 @@
  /*Navbar Section Started*/   
 .container-fluid img{
     margin:10px;
-    width: 190px;
-    height: 90px;
+    width: 170px;
+    height: 70px;
 }
 .navbar-nav a{
     font-size: 1.2rem;
@@ -294,13 +294,17 @@ footer {
     margin-right: 20px;
   
 }
-
+.navbar-nav li{
+    margin: 0 30px;
+    
+   
+}
 .navbar-nav a{
     font-family: Alkatra;
     font-size: 1.5rem;
     border-bottom: 2px solid transparent;
     transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-    margin-left: 100px ;
+    margin: 0 0 0 60px ;
 }
 
 span{
@@ -382,11 +386,11 @@ h3{
     display:inline-block;
     position: relative;
     margin: 30px;
-    top: 45%;
+    top: 40%;
     left: 20%;
     transform: translate(-50%,-50%);
-    width: 380px;
-    height: 550px;
+    width: 360px;
+    height: 500px;
     
 }
 .card1 .image {
