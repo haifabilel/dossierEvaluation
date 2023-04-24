@@ -7,19 +7,9 @@
 /*Mobile first*/
 @media (max-width:576px){
  /*Navbar Section Started*/
- .container-fluid{
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-  margin-top:70px;
-  display: flex;
-  position:fixed;
-  z-index:1;
-  width:100%;
-  height:120px;
-  background-color: white;
-     
-}   
+    
 .container-fluid img{
-   
+    margin:10px;
     width: 190px;
     height: 90px;
 }
@@ -27,7 +17,6 @@
     font-size: 1.2rem;
     margin:10px;
     font-family: Alkatra ;
-   
 }
 .navbar-nav a:hover{
    
@@ -54,7 +43,7 @@ span{
 /*Home Section started*/
 .Home{
     
-    margin-top:90px;
+    margin-top:-10px;
 }
 
 .carousel-item img{

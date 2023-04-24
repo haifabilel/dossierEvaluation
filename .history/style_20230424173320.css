@@ -27,7 +27,6 @@
     font-size: 1.2rem;
     margin:10px;
     font-family: Alkatra ;
-   
 }
 .navbar-nav a:hover{
    
@@ -54,7 +53,7 @@ span{
 /*Home Section started*/
 .Home{
     
-    margin-top:90px;
+    margin-top:50px;
 }
 
 .carousel-item img{

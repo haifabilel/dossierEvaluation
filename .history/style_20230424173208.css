@@ -19,7 +19,7 @@
      
 }   
 .container-fluid img{
-   
+    margin:10px;
     width: 190px;
     height: 90px;
 }
@@ -27,7 +27,6 @@
     font-size: 1.2rem;
     margin:10px;
     font-family: Alkatra ;
-   
 }
 .navbar-nav a:hover{
    
@@ -54,7 +53,7 @@ span{
 /*Home Section started*/
 .Home{
     
-    margin-top:90px;
+    margin-top:-10px;
 }
 
 .carousel-item img{
