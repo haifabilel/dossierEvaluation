@@ -24,10 +24,8 @@
         <div class="container-fluid">
           <div class="image-logo">
             <img src="/media/Logo_Orphelinaide.jpg">
-            <a href="http://127.0.0.1:3004/index.html "></a>
           </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -39,89 +37,16 @@
                 <a href="#Nos activités" class="nav-link active" ><span>Nos</span> activités</a>
               </li>
               <li class="nav-item">
-                <a href="#Evenements" class="nav-link active"> Evénéments</a>
+                <a href="#Evenements" class="nav-link active"> Evenements</a>
               </li>
               <li class="nav-item">
                 <a href="#Conatct Us" class="nav-link active">Conatct <span>Us</span></a>
               </li>
                 </ul>
-                <button  type="button" class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#confirmDon" >Faire un don <i class="fa-solid fa-hand-holding-heart fa-beat fa-lg"></i></button>
+                <button  type="button" class="btn btn-warning " data-toggle="modal" data-target="#confirmDon" >Faire un don <i class="fa-solid fa-hand-holding-heart fa-beat fa-lg"></i></button>
           </div>
         </div>
-        
-    <!-- fenetre modale -->
-    <div class="modal" tabindex="-1" role="dialog" id="confirmDon" >
-      <div class="modal-dialog modal-dialog-centered ">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Remplir le formulaire</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <article class="card">
-              <div class="card-body p-5">
-                <ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active" data-toggle="pill" href="#nav-tab-card">
-                    <i class="fa fa-credit-card"></i> Credit Card</a></li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#nav-tab-paypal">
-                    <i class="fab fa-paypal"></i>  Paypal</a></li>
-                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#nav-tab-bank">
-                    <i class="fa fa-university"></i>  Bank Transfer</a></li>
-                </ul>
-             </div> 
-            </article>
-    <div class="tab-content">
-      <div class="tab-pane fade show active" id="nav-tab-card">
-        <form role="form">
-           <div class="form-group">
-              <label for="Montant">Montant de don</label>
-                <input type="text" class="form-control" name="Montant" placeholder="" required="">
-           </div> <!-- form-group.// -->
-              <div class="form-group">
-                  <label for="username">Full name (on the card)</label>
-                  <input type="text" class="form-control" name="username" placeholder="" required="">
-                </div> <!-- form-group.// -->
-              
-                <div class="form-group">
-                  <label for="cardNumber">Card number</label>
-                  <div class="input-group">
-                    <input type="text" class="form-control" name="cardNumber" placeholder="">
-                    <div class="input-group-append">
-                      <span class="input-group-text text-muted">
-                        <i class="fab fa-cc-visa"></i>   <i class="fab fa-cc-amex"></i>   
-                        <i class="fab fa-cc-mastercard"></i> 
-                      </span>
-                    </div>
-                  </div>
-                </div> <!-- form-group.// -->
-              
-                <div class="row">
-                    <div class="col-sm-8">
-                        <div class="form-group">
-                            <label>Expiration</label>
-                          <div class="input-group">
-                            <input type="number" class="form-control" placeholder="MM" name="">
-                              <input type="number" class="form-control" placeholder="YY" name="">
-                          </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="form-group">
-                            <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
-                            <input type="number" class="form-control" required="">
-                        </div> <!-- form-group.// -->
-                    </div>
-                </div> <!-- row.// -->
-                <button class="subscribe btn btn-primary btn-block mt-3" type="submit"> Confirmer </button>
-                </form>
-          </div> 
-      </div> 
-    </div> 
-  </div> 
- </nav>
+      </nav>
           <!--container end.//-->
       
 </header>
@@ -172,17 +97,17 @@
 <!-- Section Nos activité started -->
 <section class="Nos activités my-5" id="Nos activités">
   <h1><span>Nos</span> activités</h1>
-  <hr class=" w-50 m-auto ">
+  <hr class="w-25 m-auto ">
   <div class="container mt-5  ">
     <div class="row">
       <div class="card mb-3 border-0 rounded-1" >
         <div class="row">
           <div class="col-md-6">
-            <img src="/media/education2.jpg" class="img-fluid rounded-0" alt="education2">
+            <img src="/media/education2.jpg" class="img-fluid rounded-start" alt="education2">
           </div>
           <div class="col-md-6">
             <div class="card-body">
-              <h2 class="card-title pt-2" >Education</h2>
+              <h2 class="card-title" >Education</h2>
               <p class="card-text">
               <br>Nous avons mis en place des programmes éducatifs afin d’aider celles et ceux qui n’ont pas eu la chance d’aller à l’école à devenir indépendants et générer des revenus par eux-mêmes.<br>
                 Des kits scolaires pour leur permettre d’étudier dans de bonnes conditions, nous finançons des kits scolaires contenant tout le matériel nécessaire au bon déroulement de l’année scolaire de nos élèves, notamment cartables, trousses, livres, stylos, etc. </p>
@@ -200,13 +125,13 @@
          
           <div class="col-md-6">
             <div class="card-body">
-              <h2 class="card-title pt-2">Santé</h2>
+              <h2 class="card-title ">Santé</h2>
               <p class="card-text">En matière de santé de l’enfant, l’action de l'association consiste à mettre en œuvre des mesures de promotion de la santé physique et mentale de l’enfant, d’interventions préventives et de soins. Cette action s’appuie sur plusieurs leviers : la diminution des facteurs de risque, la promotion des facteurs de protection et l’amélioration des conditions de prise en charge des enfants. Enfin, les inégalités d’accès des enfants à la prévention et aux soins restent une préoccupation majeure des pouvoirs publics. </p>
                 <p class="card-text"><a href="#" class="text-body-secondary">En savoir plus <i class="bi bi-arrow-right-circle-fill"></i></a></p>
               </div>
             </div>
             <div class="col-md-6">
-              <img src="/media/santé2.jpg" class="img-fluid rounded-0" alt="education2">
+              <img src="/media/santé2.jpg" class="img-fluid rounded-start" alt="education2">
             </div>
           </div>
         </div>
@@ -217,11 +142,11 @@
         <div class="card mb-3 border-0 rounded-1" >
           <div class="row">
             <div class="col-md-6">
-              <img src="/media/droit.jpg" class="img-fluid rounded-0" alt="education2">
+              <img src="/media/droit.jpg" class="img-fluid rounded-start" alt="education2">
             </div>
             <div class="col-md-6">
               <div class="card-body">
-                <h2 class="card-title pt-2">Plaidoyer et partie civile</h2>
+                <h2 class="card-title ">Plaidoyer et partie civile</h2>
                 <p class="card-text">Notre plaidoyer intègre et promeut l’approche fondée sur les droits de l’enfant. Cette approche se fonde sur les normes internationales des droits humains. Elle s’attaque aux causes immédiates, sous-jacentes et structurelles de la non-réalisation des droits et pousse à agir sur les inégalités et les discriminations en ciblant les « laissés-pour-compte » et les plus vulnérables. </p>
                   <p class="card-text"><a href="#" class="text-body-secondary">En savoir plus <i class="bi bi-arrow-right-circle-fill"></i></a></p>
                 </div>
@@ -237,7 +162,7 @@
               
               <div class="col-md-6">
                 <div class="card-body">
-                  <h2 class="card-title pt-2">Nos programmes de parrainage</h2>
+                  <h2 class="card-title ">Nos programmes de parrainage</h2>
                   <p class="card-text">Parrainer un enfant , c’est l’accompagner pour changer sa vie durablement. Ensemble changeons la vie des enfants !
                     Ainsi, vous contribuez à améliorer durablement les conditions de vie de votre filleul·e, en ayant un impact durable sur son environnement, sa vie et celle de sa communauté.
                     Notre association organise des réunions d’information avec les habitant·e·s afin d’expliquer le travail de développement de l’ONG et le fonctionnement du parrainage. 
@@ -247,65 +172,16 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <img src="/media/proverbe2.jpg" class="img-fluid rounded-0" alt="education2">
+                  <img src="/media/proverbe2.jpg" class="img-fluid rounded-start" alt="education2">
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <ul class="pagination justify-content-end">
-          <li class="page-item">
-            <a href="#" class="page-link">
-             
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-              </svg>
-               Précedent
-            </a>
-          </li>
-   
-          <li class="page-item  " aria-current="page"  >
-            <a href="#" class="page-link">
-             1
-              
-            </a>
-          </li>
-            <li class="page-item">
-              <a href="#" class="page-link">
-               2
-                
-              </a>
-            </li>
-         
-              <li class="page-item">
-                <a href="#" class="page-link">
-            3
-                  
-                </a>
-              </li>
-                <li class="page-item">
-                  <a href="#" class="page-link">
-                  4
-                    
-                  </a>
-                </li>
-            
-                  <li class="page-item">
-                    <a href="#" class="page-link" aria-label=" Suivant">
-                      Suivant
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                      </svg>
-                      
-                    </a>
-                  </li>
-    
-        </ul>
-    
 </section>
 <!-- Section Nos activité  ended -->
 <!-- Section Evenements  strated -->
-<h1><span>Nos</span> Evénéments</h1>
+<h1><span>Nos</span> Evenements</h1>
 <hr class="w-25 m-auto ">
 <section class="Event py-5 mt-3  " id="Evenements">
  
@@ -317,11 +193,9 @@
     <div class="details">
       <div class="center">
         <h4>Ateliers artistiques<br></h4>
-        <p class="text-card">Créer le dialogue et le lien social pour l’enfant orphelin grâce à des ateliers d’expression artistique.<br>
-          <a href="#" class="text-body-secondary">En savoir plus <i class="bi bi-arrow-right-circle-fill"></i></a>
-        </p>
-        <p><i class="fa-solid fa-calendar-days fa-beat"></i> Date: 15/05/2023</p>
-        <p><i class="fa-solid fa-location-dot fa-beat"></i> Lieu: Salon Opéra - Galeries Lafayette Paris.</p>
+        <p class="text-card">Créer le dialogue et le lien social pour l’enfant orphelin grâce à des ateliers d’expression artistique.</p>
+        <p><i class="fa-solid fa-calendar-days fa-beat"></i> Date:</p>
+        <p><i class="fa-solid fa-location-dot fa-beat"></i> Lieu:</p>
         <button type="button" class="btn btn-warning">Particper</button>
           
       </div>
@@ -333,12 +207,10 @@
     </div>
     <div class="details">
       <div class="center">
-        <h4>Collecte des aides</h4>
-        <p class="text-card">Les dons aux associations comme Un Enfant par la Main donnent droit à une déduction fiscale.<br>
-          <a href="#" class="text-body-secondary">En savoir plus <i class="bi bi-arrow-right-circle-fill"></i></a></p>
-     
-        <p><i class="fa-solid fa-calendar-days fa-beat"></i>  Date: 02/06/2023</p>
-        <p><i class="fa-solid fa-location-dot fa-beat"></i> Lieu: Les Salons du Cercle Louis XVI, Nante.</p>
+        <h4>Collecter des aides</h4>
+        <p class="text-card">Les dons aux associations comme Un Enfant par la Main donnent droit à une déduction fiscale.</p>
+        <p><i class="fa-solid fa-calendar-days fa-beat"></i>  Date:</p>
+        <p><i class="fa-solid fa-location-dot fa-beat"></i> Lieu:</p>
         <button type="button" class="btn btn-warning ">Particper</button>
           
       </div>
@@ -350,36 +222,46 @@
     </div>
     <div class="details">
       <div class="center">
-        <h4>Journée Sensibilisation</h4>
-        <p class="text-card">L’association mène des actions de communication tout au long de l’année afin d’encourager les gents à aider les orphelins .<br>
-          <a href="#" class="text-body-secondary">En savoir plus <i class="bi bi-arrow-right-circle-fill"></i></a>
-        </p>
-        <p><i class="fa-solid fa-calendar-days fa-beat"></i> Date: 07/08/2023</p>
-        <p><i class="fa-solid fa-location-dot fa-beat"></i> Lieu: Paris,75002.</p>
+        <h4>Journée snsibilisation</h4>
+        <p class="text-card">L’association mène des actions de communication tout au long de l’année afin d’encourager les gents à aider les orphelins .</p>
+        <p><i class="fa-solid fa-calendar-days fa-beat"></i> Date:</p>
+        <p><i class="fa-solid fa-location-dot fa-beat"></i> Lieu:</p>
         <button type="button" class="btn btn-warning">Particper</button>
           
       </div>
     </div>
   </div>
- </section>
 </main>
 
 
-
-
+</section>
 
 <!-- Section Evenements  ended -->
 
 <!-- Section Contact  started -->
 
-
+<footer>
   <section class="Conatct Us my-5" id="Conatct Us">
-    <h1>Contact <span>Us</span></h1>
+    <h1>Contact<span>Us</span></h1>
   <hr class="w-25 m-auto "> 
-  <footer class="mt-3">
+  <footer>
     <div class="footer-top">
       <div class="donation-form">
-        <h3>Contact  info</h3>
+        <h3>Faire un don</h3>
+        <form>
+          <label for="donation-amount">Montant du don:</label>
+          <input type="number" id="donation-amount" name="donation-amount" placeholder="Entrez le montant de votre don">
+          <label for="card-number">Numéro de carte:</label>
+          <input type="text" id="card-number" name="card-number" placeholder="Entrez votre numéro de carte">
+          <label for="expiration-date">Date d'expiration:</label>
+          <input type="text" id="expiration-date" name="expiration-date" placeholder="MM/AA">
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" placeholder="Entrez le code CVV">
+          <button  type="button" class="btn btn-warning " data-toggle="modal" data-target="#confirmDon" >Faire un don <i class="fa-solid fa-hand-holding-heart fa-beat fa-lg"></i></button>
+        </form>
+      </div>
+      <div class="volunteer-form">
+        <h3>Devenir bénévole</h3>
         <form>
           <label for="name">Nom complet:</label>
           <input type="text" id="name" name="name" placeholder="Entrez votre nom complet">
@@ -392,53 +274,14 @@
           <button type="submit" class="btn btn-warning">Envoyer <i class="fa-solid fa-share-from-square fa-beat"></i></button>
         </form>
       </div>
-      <div class="volunteer-form">
-        <h3>Devenir bénévole</h3>
-        <form>
-          <label for="name">Nom complet:</label>
-          <input type="text" id="name1" name="name" placeholder="Entrez votre nom complet">
-          <label for="email">Adresse email:</label>
-          <input type="email" id="email1" name="email" placeholder="Entrez votre adresse email">
-          <label for="phone">Numéro de téléphone:</label>
-          <input type="tel" id="phone1" name="phone" placeholder="Entrez votre numéro de téléphone">
-          <label for="message">Message:</label>
-          <textarea id="message1" name="message" placeholder="Entrez votre message"></textarea>
-          <button type="submit" class="btn btn-warning">Envoyer <i class="fa-solid fa-share-from-square fa-beat"></i></button>
-        </form>
-      </div>
     </div>
     <div class="footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h3>Association orphelin's aide</h3>
-              <p>Nous sommes une organisation à but non lucratif dédiée à aider les enfants qui ont perdu leurs parents. Nous travaillons avec des partenaires locaux pour offrir des services de soutien émotionnel, d'éducation, de logement et de santé à ces enfants.</p>
-            </div>
-            <div class="col-md-3">
-              <h3>Contactez-nous</h3>
-              <ul>
-                <li><i class="fa fa-map-marker"></i> 123 rue des orphelins, 75000 Paris, France</li>
-                <li><i class="fa fa-phone"></i> +33 1 23 45 67 89</li>
-                <li><i class="fa fa-envelope"></i> contact@associationorphelins.com</li>
-              </ul>
-            </div>
-            <div class="col-md-3">
-              <h3>Suivez-nous</h3>
-              <ul class="social-media">
-                <li><a href="#"><i class="fa-brands fa-facebook fa-beat fa-2xl" style="color: #f8ca24;"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram fa-beat fa-2xl" style="color:#f8ca24;"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter fa-beat fa-2xl" style="color:#f8ca24;"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-    
-      
+      <!-- Votre contenu ici -->
     </div>
-
-</footer>  
+  </footer>
+  
 </section>
-
+</footer>
 <!-- Section Contact  ended -->
 
 
