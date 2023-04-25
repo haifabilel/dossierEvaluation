@@ -117,7 +117,7 @@ h3{
   font-size:1.3rem;
   font-family:Alkatra;
   text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em whitesmoke;
-  padding: 0 17px;
+  padding: 0 10px;
 }
  
 
@@ -367,12 +367,9 @@ span{
 /*Home Section ended*/
 /* Section Nos activités started*/
 h1{
-  font-size:2rem;
-  font-weight: bold;
-  text-shadow: 1px 1px 2px black, 0 0 1em whitesmoke, 0 0 0.2em whitesmoke;
-  text-align:center;
-  font-family:Alkatra;
-   
+    
+    text-align:center;
+    font-family:Alkatra;
 }
 
 h2{
@@ -419,9 +416,8 @@ background-color: rgba(211, 211, 211, 0.27);
     font-size: size 1.5rem;
 }
 .text-event1{
-  font-size:2rem;
+  font-size:1.3rem;
   font-family:Alkatra;
-  text-align:center;
   text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em whitesmoke;
   padding: 0 10px;
 }
