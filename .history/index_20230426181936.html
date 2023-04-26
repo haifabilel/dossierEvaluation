@@ -49,7 +49,7 @@
               <button  type="button" class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#confirmDon" >Faire un don <i class="fa-solid fa-hand-holding-heart fa-beat fa-lg"></i></button>
           </div>
         </div>
-      </nav>
+        
     <!-- fenetre modale -->
     <div class="modal" tabindex="-1" role="dialog" id="confirmDon" >
       <div class="modal-dialog modal-dialog-centered ">
@@ -69,62 +69,66 @@
                  <a class="nav-link" data-toggle="pill" href="#nav-tab-paypal">
                  <i class="fab fa-paypal"></i>  Paypal</a></li>
               <li class="nav-item">
-                 <a class="nav-link" data-toggle="pill" href="#nav-tab-bank">
-                 <i class="fa fa-university"></i>  Bank Transfer</a></li>
-          </ul>
-        </div> 
-      </article><!-- Fin card-body -->
+                    <a class="nav-link" data-toggle="pill" href="#nav-tab-bank">
+                    <i class="fa fa-university"></i>  Bank Transfer</a></li>
+                </ul>
+             </div> 
+            </article>
     <div class="tab-content">
       <div class="tab-pane fade show active" id="nav-tab-card">
         <form role="form">
            <div class="form-group">
-            <label for="Montant">Montant de don</label>
-            <input type="text" class="form-control" name="Montant" placeholder="" required="">
+              <label for="Montant">Montant de don</label>
+                <input type="text" class="form-control" name="Montant" placeholder="" required="">
            </div> <!-- form-group.// -->
-           <div class="form-group">
-             <label for="username">Full name (on the card)</label>
-             <input type="text" class="form-control" name="username" placeholder="" required="">
-           </div> <!-- form-group.// -->
-           <div class="form-group">
-              <label for="cardNumber">Card number</label>
-           <div class="input-group">
-              <input type="text" class="form-control" name="cardNumber" placeholder="">
-           <div class="input-group-append">
-              <span class="input-group-text text-muted">
-              <i class="fab fa-cc-visa"></i>   <i class="fab fa-cc-amex"></i>   
-              <i class="fab fa-cc-mastercard"></i> 
-              </span>
-           </div>
-          </div>
-      </div> <!-- form-group.// -->
-      <div class="row">
-        <div class="col-sm-8">
-          <div class="form-group">
-            <label>Expiration</label>
-          <div class="input-group">
-            <input type="number" class="form-control" placeholder="MM" name="">
-            <input type="number" class="form-control" placeholder="YY" name="">
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-         <div class="form-group">
-           <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
-             <input type="number" class="form-control" required="">
-          </div> <!-- form-group.// -->
-         </div>
-       </div> 
-         <button class="subscribe btn btn-primary btn-block mt-3" type="submit"> Confirmer </button>
-      </form>
-     </div> 
+              <div class="form-group">
+                  <label for="username">Full name (on the card)</label>
+                  <input type="text" class="form-control" name="username" placeholder="" required="">
+                </div> <!-- form-group.// -->
+              
+                <div class="form-group">
+                  <label for="cardNumber">Card number</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" name="cardNumber" placeholder="">
+                    <div class="input-group-append">
+                      <span class="input-group-text text-muted">
+                        <i class="fab fa-cc-visa"></i>   <i class="fab fa-cc-amex"></i>   
+                        <i class="fab fa-cc-mastercard"></i> 
+                      </span>
+                    </div>
+                  </div>
+                </div> <!-- form-group.// -->
+              
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="form-group">
+                            <label>Expiration</label>
+                          <div class="input-group">
+                            <input type="number" class="form-control" placeholder="MM" name="">
+                              <input type="number" class="form-control" placeholder="YY" name="">
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
+                            <input type="number" class="form-control" required="">
+                        </div> <!-- form-group.// -->
+                    </div>
+                </div> 
+                <button class="subscribe btn btn-primary btn-block mt-3" type="submit"> Confirmer </button>
+                </form>
+          </div> 
+      </div> 
     </div> 
-   </div> 
   </div> 
- </div> 
-</div>          <!--container end.//-->
+ </nav>
+          <!--container end.//-->
+      
 </header>
-<!-- Header End -->
+<!-- Navbar Section End -->
 <main>
+
 <!-- Home Section starts -->
 <section class="Home" id="Home">
   <div id="carouselExampleCaptions" class="carousel slide">
