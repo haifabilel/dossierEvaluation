@@ -730,9 +730,9 @@ footer {
  .card1 {
      display:inline-block;
      position: relative;
-     margin: 0 25px;
+     margin: 0 7px;
      top: 50%;
-     left:18%;
+     left:20%;
      transform: translate(-50%,-50%);
      width: 400px;
      height:550px;
@@ -881,17 +881,18 @@ footer {
    }
    
    footer a {
-     
+     color: #fff;
      text-decoration: none;
-     
    }
    
-   .social-media li a{
+   .social-media li {
      display: inline-block;
-    
+     margin-right: 10px;
    }
    
- 
+   .social-media li:last-child {
+     margin-right: 0;
+   }
    
    
    

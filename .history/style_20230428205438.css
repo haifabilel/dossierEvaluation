@@ -883,12 +883,12 @@ footer {
    footer a {
      
      text-decoration: none;
-     
+     margin-right: 50px;
    }
    
-   .social-media li a{
+   .social-media li {
      display: inline-block;
-    
+     margin-right: 50px;
    }
    
  

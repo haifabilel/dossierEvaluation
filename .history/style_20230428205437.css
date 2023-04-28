@@ -886,9 +886,9 @@ footer {
      
    }
    
-   .social-media li a{
+   .social-media li {
      display: inline-block;
-    
+     margin-right: 50px;
    }
    
  

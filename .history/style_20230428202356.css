@@ -410,7 +410,7 @@ background-color: rgba(211, 211, 211, 0.27);
 /* Section Nos Evenements started*/
 .Event{
     background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(250, 241, 241, 0.358)) ;
-    height:600px;
+    height:700px;
     background-size: cover;
 }
 .text-Event{
@@ -426,14 +426,14 @@ background-color: rgba(211, 211, 211, 0.27);
 }
 
 .card1 {
-    display:inline-block;
+    display:inline-b;
     position: relative;
-    margin: 5px;
+    margin: 30px;
     top: 45%;
-    left: 17%;
+    left: 20%;
     transform: translate(-50%,-50%);
     width: 300px;
-    height: 450px;
+    height: 400px;
     
 }
 .card1 .image {
@@ -564,11 +564,9 @@ footer {
     font-size: 18px;
     font-weight: bold;
   }
- 
   
   footer p {
     margin-bottom: 20px;
-    margin-right: 30px;
   }
   
   footer ul {
@@ -623,16 +621,15 @@ footer {
      height: 100px;
  }
  .container-fluid button{
-    margin-right: 20px; 
+    margin-right: 0; 
  }
  
  .navbar-nav a{
      font-family: Alkatra;
-     font-size: 1.5rem;
+     font-size: 1.3rem;
      border-bottom: 2px solid transparent;
      transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-     margin-left: 105px;
-    
+     margin:0 15px;
     
  }
  
@@ -692,7 +689,6 @@ footer {
      height:300px;
      width: 600px;
      box-shadow: 5px 5px 5px gray;
-     margin-top:15px;
     
      
  }
@@ -712,7 +708,7 @@ footer {
  .Event{
      background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(250, 241, 241, 0.358)) 
      center no-repeat;
-     height:700px;
+     height:600px;
      background-size: cover;
  }
  .text-Event{
@@ -730,12 +726,11 @@ footer {
  .card1 {
      display:inline-block;
      position: relative;
-     margin: 0 25px;
-     top: 50%;
-     left:18%;
+     margin: 0 7px;
+     top: 45%;
      transform: translate(-50%,-50%);
-     width: 400px;
-     height:550px;
+     width: 280px;
+     height:400px;
      
  }
  .card1 .image {
@@ -881,17 +876,18 @@ footer {
    }
    
    footer a {
-     
+     color: #fff;
      text-decoration: none;
-     
    }
    
-   .social-media li a{
+   .social-media li {
      display: inline-block;
-    
+     margin-right: 10px;
    }
    
- 
+   .social-media li:last-child {
+     margin-right: 0;
+   }
    
    
    

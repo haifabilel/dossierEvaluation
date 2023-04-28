@@ -883,15 +883,16 @@ footer {
    footer a {
      
      text-decoration: none;
-     
    }
    
-   .social-media li a{
+   .social-media li {
      display: inline-block;
-    
+     margin-right: 50px;
    }
    
- 
+   .social-media li:last-child {
+     margin-right: 50;
+   }
    
    
    
