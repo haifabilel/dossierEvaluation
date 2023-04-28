@@ -86,18 +86,18 @@ h3{
     font-size:1.5rem;
 }
    
-.img-fluid{
-height:300px;
-width: 600px;
-box-shadow: 5px 5px 5px gray;
+    .img-fluid{
+        height:300px;
+        width: 600px;
+        box-shadow: 5px 5px 5px gray;
         
- }
-.img-fluid:hover{
- transform:scale(1.1);
- }
- .card-text{
- font-family:'Times New Roman', Times, serif;
-font-size:1rem;
+    }
+    .img-fluid:hover{
+        transform:scale(1.1);
+    }
+    .card-text{
+        font-family:'Times New Roman', Times, serif;
+        font-size:1rem;
     }
     
     /* Section Nos activités ended*/
@@ -298,7 +298,7 @@ footer {
 /* Section Contact Us ended*/
 
 
-/* Mode tablette*/
+/* En mode tablette*/
 
 @media (min-width:576px) and (max-width:768px){
  /*Navbar Section started*/
@@ -388,7 +388,7 @@ background-color: rgba(211, 211, 211, 0.27);
 }
 .img-fluid{
     height:400px;
-    width:650px;
+    width:676px;
     box-shadow: 5px 5px 5px gray;
     margin-top:15px;
   
@@ -599,7 +599,7 @@ footer {
 }
 /* Section Contact Us ended*/
 
-/*Mode écran ordinateur*/
+
 @media (min-width:768px){
   /*Navbar Section started*/
  .container-fluid{

@@ -298,7 +298,7 @@ footer {
 /* Section Contact Us ended*/
 
 
-/* Mode tablette*/
+/* En mode tablette*/
 
 @media (min-width:576px) and (max-width:768px){
  /*Navbar Section started*/
@@ -599,7 +599,7 @@ footer {
 }
 /* Section Contact Us ended*/
 
-/*Mode écran ordinateur*/
+
 @media (min-width:768px){
   /*Navbar Section started*/
  .container-fluid{
