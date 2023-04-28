@@ -6,7 +6,7 @@
 }
 /*Mobile first*/
 @media (max-width:576px){
- /*Navbar Section Starts*/
+ /*Navbar Section Started*/
  .container-fluid{
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
   margin-top:70px;
@@ -32,7 +32,8 @@
     background-color: rgba(245, 245, 245, 0.405);
     text-shadow: 1px 1px 2px black, 0 0 1em whitesmoke, 0 0 0.2em whitesmoke;
     width:100%;
- 
+   
+   
 }
 .navbar-nav a:hover{
    
@@ -99,9 +100,9 @@ box-shadow: 5px 5px 5px gray;
 font-size:1rem;
     }
     
- /* Section Nos activités end*/
+    /* Section Nos activités ended*/
   
-/* Section Nos Evenements starts*/
+/* Section Nos Evenements started*/
 .Event{
     background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(250, 241, 241, 0.358)) ;
     height:1500px;
@@ -196,8 +197,8 @@ h3{
 .card1 .details .center button:hover{
     transform:scale(1.1);
 } 
-/* Section NosEvenements End
-/* Section Contact Us starts*/
+/* Section NosEvenements Ended*/
+/* Section Contact Us started*/
 footer {
     background-color: #f2f2f2;
     padding: 20px;
@@ -290,14 +291,17 @@ footer {
   .social-media li:last-child {
     margin-right: 0;
   }
+  
+  
+  
 }
-/* Section Contact Us end*/
+/* Section Contact Us ended*/
 
 
 /* Mode tablette*/
 
 @media (min-width:576px) and (max-width:768px){
- /*Navbar Section starts*/
+ /*Navbar Section started*/
 .container-fluid{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     margin-top:70px;
@@ -323,6 +327,9 @@ footer {
     margin: 0 260px;
    
 }
+
+
+
 .navbar-nav a{
   padding:20px 30px;
    font-size: 1.5rem;
@@ -332,6 +339,7 @@ footer {
    text-shadow: 1px 1px 2px black, 0 0 1em whitesmoke, 0 0 0.2em whitesmoke;
    width:100%;
   
+  
 }
 .navbar-nav a:hover{
   transform: scale(1.1);
@@ -340,8 +348,8 @@ footer {
 span{
     color:#f8ca24;
 }
-/*Navbar Section end*/
-/*Home Section starts*/
+/*Navbar Section ended*/
+/*Home Section started*/
 .Home{
     
     margin-top:85px;
@@ -359,8 +367,8 @@ span{
 }
 
 
-/*Home Section end*/
-/* Section Nos activités starts*/
+/*Home Section ended*/
+/* Section Nos activités started*/
 
 h2{
    
@@ -397,8 +405,10 @@ background-color: rgba(211, 211, 211, 0.27);
    
 }
 
-/*Section Nos activités end*/
-/* Section Nos Evenements starts*/
+
+
+/*Section Nos activités ended*/
+/* Section Nos Evenements started*/
 .Event{
     background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(250, 241, 241, 0.358)) ;
     height:1700px;
@@ -490,7 +500,7 @@ background-color: rgba(211, 211, 211, 0.27);
     transform:scale(1.1);
 } 
 /* Section NosEvenements End*/
-/* Section Contact Us starts*/
+/* Section Contact Us started*/
 footer {
     background-color: #f2f2f2;
     padding: 20px;
@@ -624,6 +634,8 @@ footer {
      border-bottom: 2px solid transparent;
      transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
      margin-left: 105px;
+    
+    
  }
  
  span{
