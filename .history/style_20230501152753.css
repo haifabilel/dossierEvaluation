@@ -31,7 +31,7 @@
     background-color: white;
     border-bottom: 2px solid transparent;
     transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-  
+ 
 }
 .navbar-nav li{
   margin-left:-15px;
@@ -42,7 +42,7 @@
   border-bottom-color:transparent;
 }
 .navbar-nav .btn{
-  width:75%;
+  width:70%;
 }
 .navbar-nav .btn:hover{
   transform:scale(1.1);

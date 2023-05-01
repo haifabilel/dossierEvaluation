@@ -31,7 +31,7 @@
     background-color: white;
     border-bottom: 2px solid transparent;
     transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-  
+ 
 }
 .navbar-nav li{
   margin-left:-15px;
@@ -41,12 +41,7 @@
   transform:scale(1.1);
   border-bottom-color:transparent;
 }
-.navbar-nav .btn{
-  width:75%;
-}
-.navbar-nav .btn:hover{
-  transform:scale(1.1);
-}
+.navbar-nav button{}
 
 span{
     color:#f8ca24;
@@ -327,7 +322,7 @@ footer {
 
 }
 .navbar-nav li{
- margin-left:-20px;
+ margin-left:-10px;
  width: 150%;
 }
 .navbar-nav a:hover{
@@ -336,12 +331,6 @@ footer {
 }
 span{
     color:#f8ca24;
-}
-.navbar-nav .btn{
-  width:72%;
-}
-.navbar-nav .btn:hover{
-  transform:scale(1.1);
 }
 /*Navbar Section end*/
 /*Home Section starts*/
@@ -617,19 +606,16 @@ footer {
      width: 200px;
      height: 100px;
  }
- .navbar-nav .btn{
-    margin-left:200px;
+ .container-fluid button{
+    margin-right: 20px; 
  }
- .navbar-nav .btn:hover{
-  transform:scale(1.1);
-}
  
  .navbar-nav a{
      font-family: Alkatra;
      font-size: 1.5rem;
      border-bottom: 2px solid transparent;
      transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
-     margin-left: 110px;
+     margin-left: 105px;
  }
  
  span{
