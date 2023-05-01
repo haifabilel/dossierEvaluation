@@ -96,7 +96,7 @@ box-shadow: 5px 5px 5px gray;
 font-size:1rem;
     }
 .card-title0{
-  margin-top:-40px;
+  margin-top:-
 }
     
  /* Section Nos activités end*/
@@ -362,9 +362,6 @@ span{
     font-weight: bold;
     text-shadow: 1px 1px 2px black, 0 0 1em whitesmoke, 0 0 0.2em whitesmoke;
   
-}
-.card-title0{
-  margin-top:-50px;
 }
 
 
