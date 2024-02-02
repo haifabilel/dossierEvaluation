@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Courgette&family=Julee&display=swap');
+*{
+    padding: 0;
+    margin:0;
+
+}
+
+
+/* Mode tablette*/
+
+
+/*Mode Desktop*/
+@media (min-width:768px){
+  /*Navbar Section starts*/
+ .container-fluid{
+     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+     margin-top:70px;
+     display: flex;
+     position:fixed;
+     z-index:1;
+     width:100%;
+     height:120px;
+     background-color: white;
+        
+ }
+ .collapse button{
+     height:50px;
+     font-size:1.2rem;
+ }
+ 
+ .container-fluid img{
+     margin-left:0;
+     margin-top:10px;
+     width: 200px;
+     height: 100px;
+ }
+ .navbar-nav .btn{
+    margin-left:200px;
+ }
+ .navbar-nav .btn:hover{
+  transform:scale(1.1);
+}
+ 
+ .navbar-nav a{
+     font-family: Alkatra;
+     font-size: 1.5rem;
+     border-bottom: 2px solid transparent;
+     transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+     margin-left: 110px;
+ }
+ 
+ span{
+     color:#f8ca24;
+ }
+ .navbar-nav a:hover{
+     transform:scale(1.1);
+     padding-bottom:20px;
+     border-bottom-color:black
+ }
+ /*Navbar Section end*/
+ /*Home Section starts*/
+ .Home{
+     
+     margin-top:85px;
+ }
+ .carousel-item img{
+     width: 100%;
+     height:80vh;
+     margin-top:5px;
+ }
+ .carousel-inner p{
+     font-size:1.5rem;
+     font-weight: bold;
+     text-shadow: 1px 1px 2px black, 0 0 1em whitesmoke, 0 0 0.2em whitesmoke;
+   
+ }
+ 
+ 
+ /*Home Section ended*/
+ /* Section Nos activités started*/
+ h1{
+   font-size:2rem;
+   font-weight: bold;
+   text-shadow: 1px 1px 2px black, 0 0 1em whitesmoke, 0 0 0.2em whitesmoke;
+   text-align:center;
+   font-family:Alkatra;
+    
+ }
+ 
+ h2{
+    
+   text-align:center;
+   font-family:Alkatra;
+   font-size:2rem;
+   justify-content: center;
+ }
+ h3{
+ background-color: rgba(211, 211, 211, 0.27);
+   text-align: center;
+   height:50px;
+   font-family: Alkatra;
+   font-size:1.5rem;
+ }
+ .img-fluid{
+     height:300px;
+     width: 600px;
+     box-shadow: 5px 5px 5px gray;
+     margin-top:15px;
+    
+     
+ }
+ .img-fluid:hover{
+     transform:scale(1.1);
+ }
+ .card-text{
+     font-family:'Times New Roman', Times, serif;
+     font-size:1.1rem;
+     
+ }
+ 
+ 
+ 
+ /*Section Nos activités end*/
+ /* Section Nos Evenements starts*/
+ .Event{
+     background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(250, 241, 241, 0.358)) 
+     center no-repeat;
+     height:700px;
+     background-size: cover;
+ }
+ .text-Event{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: size 1.5rem;
+ }
+ .text-event1{
+   font-size:2rem;
+   font-family:Alkatra;
+   text-align:center;
+   text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em whitesmoke;
+   padding: 0 10px;
+ }
+ 
+ .card1 {
+     display:inline-block;
+     position: relative;
+     margin: 0 25px;
+     top: 50%;
+     left:18%;
+     transform: translate(-50%,-50%);
+     width: 400px;
+     height:550px;
+     
+ }
+ .card1 .image {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+ }
+ .card1 .image img {
+     width: 100%;
+     height:100%;
+     transition: .5s;
+ }
+ .card1:hover .image img {
+     opacity: .5;
+     transform: translateX(30%);/*100%*/
+ }
+ .card1 .details {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 70%;/*100%*/
+     height: 100%;
+     background: #ffc107;
+     transition: .5s;
+     transform-origin: left;
+     transform: perspective(2000px) rotateY(-90deg);
+ }
+ .card1:hover .details {
+     transform: perspective(2000px) rotateY(0deg);
+ }
+ .card1 .details .center {
+     padding: 20px;
+    
+     background: #fff;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+ .card1 .details .center h4 {
+     text-align: center;
+     margin: 0;
+     padding: 0;
+     color: #ff3636;
+     line-height: 20px;
+     font-size: 20px;
+     text-transform: uppercase;
+     font-family:Alkatra;
+ }
+ .card1 .details .center .text-card{
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     margin-top:20px;
+     font-size:1.2rem;
+ }
+ .card1 .details .center button{
+     margin: 20px 50px;
+     width: 120px;
+     font-size:1.2rem;
+     text-transform: uppercase;
+     font-family:Alkatra;
+ }
+ .card1 .details .center button:hover{
+     transform:scale(1.1);
+ } 
+ /* Section NosEvenements End*/
+ /* Section Contact Us starts*/
+ footer {
+     background-color: #f2f2f2;
+     padding: 20px;
+     text-align: center;
+     bottom: 0;
+     width: 100%;
+   }
+   
+   .footer-top {
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     margin-bottom: 30px;
+   }
+   
+   .donation-form,
+   .volunteer-form {
+     width: 45%;
+     margin-bottom: 20px;
+   }
+   
+   h3 {
+     margin-top: 0;
+   }
+   
+   form label {
+     display: block;
+     margin-bottom: 5px;
+     font-weight: bold;
+   }
+   
+   form input,
+   form textarea {
+     display: block;
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+   }
+   
+   form button {
+     background-color: #0066cc;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+   }
+   
+   form button:hover {
+     background-color: #0051a8;
+   }
+   /* Footer bottom*/
+   footer {
+     background-color: #333;
+     color: #fff;
+     padding: 30px 0;
+     font-size: 14px;
+   }
+   
+   footer h3 {
+     font-size: 18px;
+     font-weight: bold;
+   }
+   
+   footer p {
+     margin-bottom: 20px;
+   }
+   
+   footer ul {
+     list-style: none;
+     padding: 0;
+   }
+   
+   footer li {
+     margin-bottom: 10px;
+     display: inline-block;
+   }
+   
+   footer a {
+     
+     text-decoration: none;
+    
+     
+   }
+   
+   .social-media li a{
+     display: inline-block;
+     margin-top:20px;
+     margin: 10px;
+    
+   }
+ 
+ /* Section Contact Us end*/
+ /*Mobile first*/
+@media (max-width:576px){
+  /*Navbar Section Starts*/
+  .container-fluid{
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+   margin-top:70px;
+   display: flex;
+   position:fixed;
+   z-index:1;
+   width:100%;
+   height:120px;
+   background-color: white;
+      
+ }   
+ .container-fluid img{
+    margin-top:15px;
+     width: 190px;
+     height: 90px;
+ }
+ 
+ .navbar-nav a{
+    padding:15px 35px;
+     font-size: 1.5rem;
+     font-family: Alkatra ;
+     background-color: white;
+     border-bottom: 2px solid transparent;
+     transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+   
+ }
+ .navbar-nav li{
+   margin-left:-15px;
+   width: 150%;
+ }
+ .navbar-nav a:hover{
+   transform:scale(1.1);
+   border-bottom-color:transparent;
+ }
+ .navbar-nav .btn{
+   width:75%;
+ }
+ .navbar-nav .btn:hover{
+   transform:scale(1.1);
+ }
+ 
+ span{
+     color:#f8ca24;
+ }
+ /*Navbar Section ended*/
+ 
+ /*Home Section started*/
+ .Home{
+     
+     margin-top:90px;
+ }
+ 
+ .carousel-item img{
+     width: 100%;
+     height:60vh;
+     margin-top:0;
+ }
+ 
+ /*Home Section ended*/
+ /* Section Nos activités started*/
+ h2{
+    
+     text-align:center;
+     font-family:Alkatra;
+     font-size:2rem;
+     justify-content: center;
+ }
+ h3{
+   background-color: rgba(211, 211, 211, 0.27);
+     text-align: center;
+     height:50px;
+     font-family: Alkatra;
+     font-size:1.5rem;
+ }
+    
+ .img-fluid{
+ height:300px;
+ width: 600px;
+ box-shadow: 5px 5px 5px gray;
+         
+  }
+ .img-fluid:hover{
+  transform:scale(1.1);
+  }
+  .card-text{
+  font-family:'Times New Roman', Times, serif;
+ font-size:1rem;
+     }
+ .card-title0{
+   margin-top:-40px;
+ }
+     
+  /* Section Nos activités end*/
+   
+ /* Section Nos Evenements starts*/
+ .Event{
+     background:linear-gradient(rgba(0, 0, 0, 0.073) , rgba(250, 241, 241, 0.358)) ;
+     height:1500px;
+     background-size: cover;
+ }
+ .text-Event{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: size 1.1rem;
+ }
+ .text-event1{
+   font-size:1.4rem;
+   font-family:Alkatra;
+   text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em whitesmoke;
+   padding: 0 10px;
+ }
+  
+ 
+ h3{
+     font-family:Alkatra;
+     font-size: 1.5rem; 
+     
+ }
+ .card1 {
+     display:inline-block;
+     position: relative;
+     margin: 30px;
+     top:15%;
+     left: 45%;
+     transform: translate(-50%,-50%);
+     width: 370px;
+     height: 400px;
+     
+ }
+ .card1 .image {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+ }
+ .card1 .image img {
+     width: 100%;
+     height:100%;
+     transition: .5s;
+ }
+ .card1:hover .image img {
+     opacity: .5;
+     transform: translateX(30%);/*100%*/
+ }
+ .card1 .details {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 70%;/*100%*/
+     height: 100%;
+     background: #ffc107;
+     transition: .5s;
+     transform-origin: left;
+     transform: perspective(2000px) rotateY(-90deg);
+ }
+ .card1:hover .details {
+     transform: perspective(2000px) rotateY(0deg);
+ }
+ .card1 .details .center {
+     padding: 20px;
+    
+     background: #fff;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+ .card1 .details .center h4 {
+     text-align: center;
+     margin: 0;
+     padding: 0;
+     color: #ff3636;
+     line-height: 20px;
+     font-size: 20px;
+     text-transform: uppercase;
+     font-family:Alkatra;
+ }
+ .card1 .details .center .text-card{
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     margin-top:20px;
+ }
+ .card1 .details .center button{
+     margin: 20px 50px;
+     width: 120px;
+     font-size:1.2rem;
+     text-transform: uppercase;
+     font-family:Alkatra;
+ }
+ .card1 .details .center button:hover{
+     transform:scale(1.1);
+ } 
+ /* Section NosEvenements End
+ /* Section Contact Us starts*/
+ footer {
+     background-color: #f2f2f2;
+     padding: 20px;
+     text-align: center;
+     bottom: 0;
+     width: 100%;
+   }
+   
+   .footer-top {
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     margin-bottom: 30px;
+   }
+   
+   .donation-form,
+   .volunteer-form {
+     width: 45%;
+     margin-bottom: 20px;
+   }
+   
+   h3 {
+     margin-top: 0;
+   }
+   
+   form label {
+     display: block;
+     margin-bottom: 5px;
+     font-weight: bold;
+   }
+   
+   form input,
+   form textarea {
+     display: block;
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+   }
+   
+   form button {
+     background-color: #0066cc;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+   }
+   
+   form button:hover {
+     background-color: #0051a8;
+   }
+   /* Footer bottom*/
+   footer {
+     background-color: #333;
+     color: #fff;
+     padding: 30px 0;
+     font-size: 14px;
+   }
+   
+   footer h3 {
+     font-size: 18px;
+     font-weight: bold;
+   }
+   
+   footer p {
+     margin-bottom: 20px;
+   }
+   
+   footer ul {
+     list-style: none;
+     padding: 0;
+   }
+   
+   footer li {
+     margin-bottom: 10px;
+   }
+   
+   footer a {
+     
+     text-decoration: none;
+   }
+   
+   .social-media li {
+     display: inline-block;
+     margin-right: 10px;
+   }
+   
+   .social-media li:last-child {
+     margin-right: 0;
+   }
+ }
+ /* Section Contact Us end*/
+ 
