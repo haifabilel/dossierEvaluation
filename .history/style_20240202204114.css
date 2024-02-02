@@ -2,8 +2,11 @@
 *{
     padding: 0;
     margin:0;
+
 }
 
+/*Mode Desktop*/
+@media (min-width:768px){
   /*Navbar Section starts*/
  .container-fluid{
      box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
@@ -301,7 +304,7 @@
      margin: 10px;
     
    }
-
+ }
  /* Section Contact Us end*/
  /*Mobile first*/
 @media (max-width:576px){
@@ -322,9 +325,7 @@
      width: 190px;
      height: 90px;
  }
- .navbar-toggler{
-  margin-right: 50px;;
- }
+ 
  .navbar-nav a{
     padding:15px 35px;
      font-size: 1.5rem;

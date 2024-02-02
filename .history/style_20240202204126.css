@@ -301,7 +301,7 @@
      margin: 10px;
     
    }
-
+ }
  /* Section Contact Us end*/
  /*Mobile first*/
 @media (max-width:576px){
@@ -322,9 +322,7 @@
      width: 190px;
      height: 90px;
  }
- .navbar-toggler{
-  margin-right: 50px;;
- }
+ 
  .navbar-nav a{
     padding:15px 35px;
      font-size: 1.5rem;
